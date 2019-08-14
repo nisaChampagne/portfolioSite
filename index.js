@@ -1,26 +1,23 @@
-import React, { Component } from 'react';
-import { render } from 'react-dom';
-import Hello from './Hello';
-import './style.css';
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      name: 'React'
-    };
-  }
 
-  render() {
-    return (
-      <div>
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
-      </div>
-    );
-  }
+import React from "react";
+import ReactDOM from "react-dom";
+// import axios from 'axios';
+import Nav from './components/nav.js';
+import Portfolio from './components/portfolio.js';
+
+
+import "./style.css";
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Hello web21</h1>
+      <Nav />
+      <Portfolio />
+    </div>
+  );
 }
 
-render(<App />, document.getElementById('root'));
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
