@@ -6,29 +6,19 @@ function Contact() {
     <div>
       <ul class="contact">
         <li>
-          <h3>Address</h3>
-          <p>
-            Untitled Incorporated
-            <br />
-            1234 Somewhere Road Suite
-            <br />
-            Nashville, TN 00000-0000
-          </p>
-        </li>
-        <li>
           <h3>Mail</h3>
           <p>
-            <a href="#">someone@untitled.tld</a>
+            <a href="#">nchampag23@gmail.com</a>
           </p>
         </li>
         <li>
           <h3>Phone</h3>
-          <p>(800) 000-0000</p>
+          <p>(813) 344-8993</p>
         </li>
       </ul>
       <div>
         <header>
-          <h2>Vitae tempor lorem</h2>
+          <h2>Social Media Handles</h2>
         </header>
         <ul class="social">
           <li>
