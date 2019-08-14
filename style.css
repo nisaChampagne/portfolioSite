@@ -1,3 +1,25 @@
 h1, p {
   font-family: Lato;
 }
+.navs{
+    font-family: Lato;
+    display: flex;
+}
+
+a{
+  text-decoration: none;
+  color: blueviolet;
+}
+
+a:hover{
+  color: black;
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('')
+}
